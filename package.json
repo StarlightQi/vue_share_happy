@@ -1,0 +1,41 @@
+{
+  "name": "share_happy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "cropperjs": "^1.5.7",
+    "echarts": "^4.8.0",
+    "element-ui": "^2.4.5",
+    "kindeditor": "^4.1.10",
+    "moment": "^2.27.0",
+    "vue": "^2.6.11",
+    "vue-core-image-upload": "^2.4.12",
+    "vue-router": "^3.2.0",
+    "vue-upload-component": "^2.8.20",
+    "wangeditor": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

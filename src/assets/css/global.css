@@ -1,0 +1,75 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+.el-steps {
+  margin: 15px 0;
+}
+
+.el-step__title {
+  font-size: 13px;
+}
+
+.ql-editor {
+  min-height: 300px;
+}
+
+
+.example-avatar .avatar-upload .rounded-circle {
+  width: 200px;
+  height: 200px;
+}
+.example-avatar .text-center .btn {
+  margin: 0 .5rem
+}
+.example-avatar .avatar-edit-image {
+  max-width: 100%
+}
+.example-avatar .drop-active {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+  opacity: .6;
+  text-align: center;
+  background: #000;
+}
+.example-avatar .drop-active h3 {
+  margin: -.5em 0 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #fff;
+  padding: 0;
+}
